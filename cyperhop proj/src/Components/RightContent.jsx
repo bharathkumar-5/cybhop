@@ -2,17 +2,18 @@ import React from 'react';
 
 const RightContent = () => {
   const stats = [
-    { label: 'Food and Drinks', amount: '872.400', progress: 28 },
-    { label: 'Shopping', amount: '1.378.200', progress: 44 },
-    { label: 'Housing', amount: '928.500', progress: 36 },
-    { label: 'Transportation', amount: '420.700', progress: 24 },
-    { label: 'Vehicle', amount: '520.000', progress: 36 }
+    { label: 'Celesteela', amount: '2204.4 lbs', progress: 48 },
+    { label: 'Cosmoem', amount: '2204.4 lbs', progress: 44 },
+    { label: 'Primal Groudon', amount: '2204.4 lbs', progress: 34 },
+    { label: 'Eternatus', amount: '2094.4 lbs', progress: 38 },
+    { label: 'Groudon', amount: '2094.4 lbs', progress: 36 }
   ];
+
 
   return (
     <div className="right-content">
       <div className="stats-section">
-        <h2>Where your money go?</h2>
+        <h2> Heaviest Pokémon by weight</h2>
         {stats.map((item, index) => (
           <div key={index} className="stat-item">
             <div className="stat-details">

@@ -32,7 +32,7 @@ const Login = ({ onLogin }) => {
         setError(data.error || 'Login failed');
       }
     } catch (err) {
-      setError('An error occurred. Please try again.');
+      setError('An error occurred. Please try again.'  ,err);
     }
   };
 
@@ -45,6 +45,7 @@ const Login = ({ onLogin }) => {
           <div className="input-group">
             <label htmlFor="email">Email</label>
             <input
+              placeholder='eve.holt@reqres.in'
               type="email"
               id="email"
               value={email}
@@ -55,6 +56,7 @@ const Login = ({ onLogin }) => {
           <div className="input-group">
             <label htmlFor="password">Password</label>
             <input
+             placeholder='Type Random Text'
               type="password"
               id="password"
               value={password}
