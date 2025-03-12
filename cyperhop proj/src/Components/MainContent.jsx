@@ -56,7 +56,6 @@ const MainContent = () => {
   };
 
   return (
-    <div className="background-content">
     <div className="main-content">
       <div className="header">
         <h1>Pokemon Data Visualization</h1>
@@ -76,7 +75,6 @@ const MainContent = () => {
           />
         ))}
       </div>
-    </div>
     </div>
   );
 };
