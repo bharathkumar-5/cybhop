@@ -56,12 +56,13 @@ const MainContent = () => {
   };
 
   return (
+    <div className="background-content">
     <div className="main-content">
       <div className="header">
         <h1>Pokemon Data Visualization</h1>
         <p>Displaying weight of 5 random Pokémon</p>
       </div>
-      <Bar data={chartData} options={{ responsive: true, plugins: { legend: { display: true } } }} />
+      <img src="https://dashboard.codeparrot.ai/api/image/Z9Bt0ed_tb-16vI0/stats.png" alt="statistics" className="stats" />
       <div className="expenses">
         <h2>Today</h2>
         {pokemonData.map((p, index) => (
@@ -75,6 +76,7 @@ const MainContent = () => {
           />
         ))}
       </div>
+    </div>
     </div>
   );
 };

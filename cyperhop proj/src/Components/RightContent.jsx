@@ -1,4 +1,5 @@
 import React from 'react';
+import Illustration from '../assets/Illustration.png';
 
 const RightContent = () => {
   const stats = [
@@ -27,7 +28,10 @@ const RightContent = () => {
         ))}
       </div>
       <div className="tips-box">
-        <img src="https://dashboard.codeparrot.ai/api/image/Z9Bt0ed_tb-16vI0/illustra.png" alt="Illustration" />
+        <div className='image'>
+          <img src={Illustration} alt="" />
+          <img src="https://dashboard.codeparrot.ai/api/image/Z9Bt0ed_tb-16vI0/illustra.png" alt="Illustration" />
+        </div>
         <h3>Save more money</h3>
 
         

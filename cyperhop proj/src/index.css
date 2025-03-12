@@ -1,5 +1,9 @@
 /* General Styles */
 body {
+  width: 1440;
+  height: 900;
+  border-radius: 30px;
+
   margin: 0;
   font-family: 'Poppins', sans-serif;
   background-color: #101010;
@@ -92,20 +96,32 @@ body {
 }
 
 /* Main Content Styles */
+/* .background-content{
+  width: 1060px;
+height: 740px;
+top: 20px;
+left: 360px;
+border-top-left-radius:30px ;
+border-bottom-left-radius:30px ;
+background-color: #ffffff;
+} */
+
+
+
 .main-content {
-  width: 500px;
+  width: 710px;
+  height: 621px;
+  top: 40px;
+  left: 460px;
+  border-top-left-radius:30px ;
+border-bottom-left-radius:30px ;
   margin-left: -10px;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-bottom: 30px;
-  height: 1000px;
-  top: 20px;
-  left: 360px;
   flex-grow: 1;
   background-color: white;
-  padding: 40px;
+  padding: 100px;
   /* border-radius: 30px; */
-  border-top-left-radius:30px ;
-  border-bottom-left-radius:30px ;
 }
 
 .header {
@@ -176,17 +192,31 @@ body {
 
 /* Right Content Styles */
 .right-content {
-  margin-top: 30px;
+  width: 350px;
+  height: 741px;
+  top: 20px;
+  left: 1070px;
+  margin-top: 20px;
   /* margin-left: -20px; */
   margin-bottom: 30px;
-  border-right: 30px;
-  width: 400px;
-  height: 1000px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
   background-color: #f9fafc;
   padding: 40px;
 }
 
+.image{
+  display: flex;
+  gap:30px;
+}
+
+
+
 .stats-section {
+  width: 350;
+  height: 860;
+  top: 20px;
+  left: 1070px;
   margin-bottom: 50px;
 }
 
@@ -229,13 +259,13 @@ body {
   position: relative;
   background-color: #edf0f6;
   border: 0px solid #979797;
-  margin-top: 320px;
+  margin-top: 110px;
   border-radius: 15px;
   padding: 24px;
 }
 
 .tips-box img {
-  margin-left: 200px;
+  /* margin-left: 200px; */
   width: 84px;
   height: 112px;
   margin-bottom: 16px;
