@@ -92,16 +92,31 @@ Additionally, use the **PokeAPI** (or any other public API) to fetch and display
 ## 📌 **Folder Structure**
 
 ```
-📂 dashboard-ui
-│-- 📂 src
-│   │-- 📂 components       # Reusable UI components
-│   │-- 📂 pages            # Page-level components (Login, Dashboard)
-│   │-- 📂 services         # API request functions
-│   │-- 📂 utils            # Utility functions
-│   │-- 📜 App.js           # Main application file
-│   │-- 📜 index.js         # Entry point
-│-- 📜 package.json         # Project metadata and dependencies
-│-- 📜 README.md            # Project documentation
+Directory structure:
+└── bharathkumar-5-cybhop/
+    ├── README.md
+    └── cyperhop proj/
+        ├── README.md
+        ├── eslint.config.js
+        ├── index.html
+        ├── package-lock.json
+        ├── package.json
+        ├── vite.config.js
+        ├── .gitignore
+        ├── public/
+        └── src/
+            ├── App.css
+            ├── App.jsx
+            ├── index.css
+            ├── main.jsx
+            ├── assets/
+            └── Components/
+                ├── DashboardLayout.jsx
+                ├── Login.jsx
+                ├── MainContent.jsx
+                ├── RightContent.jsx
+                └── Sidebar.jsx
+
 ```
 
 ---
